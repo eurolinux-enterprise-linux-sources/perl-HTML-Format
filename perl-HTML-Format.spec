@@ -1,6 +1,6 @@
 Name:           perl-HTML-Format
 Version:        2.10
-Release:        6.1%{?dist}
+Release:        7%{?dist}
 Summary:        HTML formatter modules
 Group:          Development/Libraries
 License:        GPL+ or Artistic
@@ -110,6 +110,9 @@ cd ..
 %{_mandir}/man3/HTML*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.10-7
+- Mass rebuild 2013-12-27
+
 * Tue Jul 23 2013 Petr Šabata <contyk@redhat.com> - 2.10-6.1
 - Add some missing dependencies
 
