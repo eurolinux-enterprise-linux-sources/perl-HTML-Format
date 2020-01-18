@@ -1,0 +1,12 @@
+diff -Naur HTML-Format-2.10.orig/t/rt69426.t HTML-Format-2.10.hacked/t/rt69426.t
+--- HTML-Format-2.10.orig/t/rt69426.t	2011-07-18 18:07:49.000000000 +0200
++++ HTML-Format-2.10/t/rt69426.t	2011-08-19 08:52:13.880661937 +0200
+@@ -28,7 +28,7 @@
+     my $desc = $table->{$quoted};
+         my $obj   = new_ok("HTML::FormatPS");
+         my $htree = new_ok("HTML::TreeBuilder");
+-        
++
+         my $html  = '<html><body>The ' . $desc . ' is a ' . $quoted . ' character</body></html>';
+         ok( $html, "HTML string containing an $desc should map to $desc" );
+ 
